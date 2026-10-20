@@ -26,11 +26,11 @@
     <h1 id="top">🏀 NBA All-Time Starting Five</h1>
     <p>歡迎來到歷史最佳先發五人特展！點擊下方球場位置快速查看：</p>
 
-    <div class="nav-menu">
+<div class="nav-menu">
         <a href="#pos1">1.Curry</a> | <a href="#pos2">2.Jordan</a> | <a href="#pos3">3.LeBron</a> | <a href="#pos4">4.Duncan</a> | <a href="#pos5">5.Shaq</a> | <a href="#table">對照表</a> | <a href="#info">專案資訊</a>
     </div>
 
-    <div class="court">
+<div class="court">
         <div class="line"><a href="#pos5" class="player">5號位 C: Shaquille O'Neal</a></div>
         <div class="line"><a href="#pos3" class="player">3號位 SF: LeBron James</a><a href="#pos4" class="player">4號位 PF: Tim Duncan</a></div>
         <div class="line"><a href="#pos2" class="player">2號位 SG: Michael Jordan</a><a href="#pos1" class="player">1號位 PG: Stephen Curry</a></div>
@@ -38,7 +38,7 @@
     <hr>
 
     <!-- 球星區塊 (各球星通用結構) -->
-    <div class="card" id="pos1">
+<div class="card" id="pos1">
         <h2>1號位 (PG)：Stephen Curry</h2>
         <p><strong>效力球隊：</strong>金州勇士 | <strong>背號：</strong>30號</p>
         <p>現代籃球的<mark>三分球革命者</mark>，憑藉無解的外線與無球跑位引領小球風潮。</p>
@@ -49,7 +49,7 @@
         <p style="text-align: right;"><a href="#top">▲ 回頂部</a></p>
     </div>
 
-    <div class="card" id="pos2">
+<div class="card" id="pos2">
         <h2>2號位 (SG)：Michael Jordan</h2>
         <p><strong>效力球隊：</strong>芝加哥公牛 | <strong>背號：</strong>23號</p>
         <p>公認的<mark>籃球之神 (The GOAT)</mark>，率領公牛締造90年代兩次三連霸。</p>
@@ -60,7 +60,7 @@
         <p style="text-align: right;"><a href="#top">▲ 回頂部</a></p>
     </div>
 
-    <div class="card" id="pos3">
+<div class="card" id="pos3">
         <h2>3號位 (SF)：LeBron James</h2>
         <p><strong>效力球隊：</strong>騎士 / 熱火 / 湖人 | <strong>背號：</strong>23號</p>
         <p>歷史上最全面的超級前鋒，達成破天荒的<mark>生涯四萬分里程碑</mark>。</p>
@@ -71,7 +71,7 @@
         <p style="text-align: right;"><a href="#top">▲ 回頂部</a></p>
     </div>
 
-    <div class="card" id="pos4">
+<div class="card" id="pos4">
         <h2>4號位 (PF)：Tim Duncan</h2>
         <p><strong>效力球隊：</strong>聖安東尼奧馬刺 | <strong>背號：</strong>21號</p>
         <p>被譽為<mark>「大基本功」</mark>，率領馬刺長達19個賽季維持頂級競爭力。</p>
@@ -82,7 +82,7 @@
         <p style="text-align: right;"><a href="#top">▲ 回頂部</a></p>
     </div>
 
-    <div class="card" id="pos5">
+<div class="card" id="pos5">
         <h2>5號位 (C)：Shaquille O'Neal</h2>
         <p><strong>效力球隊：</strong>魔術 / 湖人 / 熱火 | <strong>背號：</strong>34號</p>
         <p>最具<mark>物理破壞力與統治力</mark>的中鋒，聯手奪得湖人三連霸。</p>
@@ -94,7 +94,7 @@
     </div>
 
     <!-- 榮譽對照總表 -->
-    <div class="card" id="table">
+<div class="card" id="table">
         <h2 style="text-align: center;">🏆 五大號位歷史超巨 生涯榮譽對照表</h2>
         <table>
             <tr><th>號位</th><th>球員姓名</th><th>總冠軍</th><th>例行賽MVP</th><th>總決賽FMVP</th><th>代表招式</th></tr>
