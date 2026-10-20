@@ -9,7 +9,7 @@
         #nav-menu { background-color: #1d428a; color: #ffffff; padding: 10px; margin: auto; width: 80%; }
         #nav-menu a { color: #ffffff; }
         .court-table { width: 600px; height: 360px; background-color: #f5deb3; margin: auto; border: 2px solid #333333; }
-        .player-box { background-color: #ffffff; padding: 5px; border: 1px solid #555555; }
+        .player-link { background-color: #ffffff; padding: 5px; border: 1px solid #555555; color: #000000; }
         .card { background-color: #ffffff; border: 1px solid #cccccc; width: 70%; margin: auto; padding: 15px; text-align: left; }
         blockquote { background-color: #f0f4f8; border-left: 5px solid #1d428a; padding: 8px; }
         table.honor-table { width: 100%; margin: auto; border-collapse: collapse; text-align: center; font-size: 15px; }
@@ -21,38 +21,39 @@
     <h1 id="top">🏀 NBA All-Time Starting Five</h1>
     <p>歡迎來到歷史最佳先發五人特展！點擊下方球場位置快速查看：</p>
 
-<div id="nav-menu">
+   <div id="nav-menu">
         <a href="#pos1">1.Curry</a> | <a href="#pos2">2.Jordan</a> | <a href="#pos3">3.LeBron</a> | <a href="#pos4">4.Duncan</a> | <a href="#pos5">5.Shaq</a> | <a href="#table">對照表</a>
     </div>
     <br>
- <!-- 利用 Table 模擬半場站位 -->
-    <table class="court-table">
+
+    <!-- 利用 Table 模擬半場站位，完全採用 text-align: center 與 PPT 樣式 -->
+   <table class="court-table">
         <tr>
-            <td colspan="2" align="center" style="height: 110px;">
-                <span class="player-box"><a href="#pos5">5號位 C: Shaquille O'Neal</a></span>
+            <td colspan="2" style="text-align: center; height: 110px;">
+                <a href="#pos5" class="player-link">5號位 C: Shaquille O'Neal</a>
             </td>
         </tr>
         <tr>
-            <td align="center" style="width: 50%; height: 110px;">
-                <span class="player-box"><a href="#pos3">3號位 SF: LeBron James</a></span>
+            <td style="text-align: center; width: 50%; height: 110px;">
+                <a href="#pos3" class="player-link">3號位 SF: LeBron James</a>
             </td>
-            <td align="center" style="width: 50%; height: 110px;">
-                <span class="player-box"><a href="#pos4">4號位 PF: Tim Duncan</a></span>
+            <td style="text-align: center; width: 50%; height: 110px;">
+                <a href="#pos4" class="player-link">4號位 PF: Tim Duncan</a>
             </td>
         </tr>
         <tr>
-            <td align="center" style="height: 110px;">
-                <span class="player-box"><a href="#pos2">2號位 SG: Michael Jordan</a></span>
+            <td style="text-align: center; height: 110px;">
+                <a href="#pos2" class="player-link">2號位 SG: Michael Jordan</a>
             </td>
-            <td align="center" style="height: 110px;">
-                <span class="player-box"><a href="#pos1">1號位 PG: Stephen Curry</a></span>
+            <td style="text-align: center; height: 110px;">
+                <a href="#pos1" class="player-link">1號位 PG: Stephen Curry</a>
             </td>
         </tr>
     </table>
     <br><hr><br>
 
     <!-- 1號位 Curry -->
- <div class="card" id="pos1">
+  <div class="card" id="pos1">
         <h2>1號位 (PG)：Stephen Curry</h2>
         <p><strong>效力球隊：</strong>金州勇士 | <strong>背號：</strong>30號</p>
         <p>現代籃球的<mark>三分球革命者</mark>，憑藉無解的外線與無球跑位引領小球風潮。</p>
@@ -63,8 +64,9 @@
         <p style="text-align: right;"><a href="#top">▲ 回頂部</a></p>
     </div>
     <br>
-  <!-- 2號位 Jordan -->
-    <div class="card" id="pos2">
+
+    <!-- 2號位 Jordan -->
+  <div class="card" id="pos2">
         <h2>2號位 (SG)：Michael Jordan</h2>
         <p><strong>效力球隊：</strong>芝加哥公牛 | <strong>背號：</strong>23號</p>
         <p>公認的<mark>籃球之神 (The GOAT)</mark>，率領公牛締造90年代兩次三連霸。</p>
@@ -75,9 +77,8 @@
         <p style="text-align: right;"><a href="#top">▲ 回頂部</a></p>
     </div>
     <br>
-
     <!-- 3號位 LeBron -->
-  <div class="card" id="pos3">
+ <div class="card" id="pos3">
         <h2>3號位 (SF)：LeBron James</h2>
         <p><strong>效力球隊：</strong>騎士 / 熱火 / 湖人 | <strong>背號：</strong>23號</p>
         <p>歷史上最全面的超級前鋒，達成破天荒的<mark>生涯四萬分里程碑</mark>。</p>
@@ -90,7 +91,7 @@
     <br>
 
     <!-- 4號位 Duncan -->
- <div class="card" id="pos4">
+  <div class="card" id="pos4">
         <h2>4號位 (PF)：Tim Duncan</h2>
         <p><strong>效力球隊：</strong>聖安東尼奧馬刺 | <strong>背號：</strong>21號</p>
         <p>被譽為<mark>「大基本功」</mark>，率領馬刺長達19個賽季維持頂級競爭力。</p>
@@ -103,7 +104,7 @@
     <br>
 
     <!-- 5號位 Shaq -->
- <div class="card" id="pos5">
+    <div class="card" id="pos5">
         <h2>5號位 (C)：Shaquille O'Neal</h2>
         <p><strong>效力球隊：</strong>魔術 / 湖人 / 熱火 | <strong>背號：</strong>34號</p>
         <p>最具<mark>物理破壞力與統治力</mark>的中鋒，聯手奪得湖人三連霸。</p>
@@ -116,7 +117,7 @@
     <br>
 
     <!-- 榮譽對照總表 -->
-  <div class="card" id="table">
+<div class="card" id="table">
         <h2 style="text-align: center;">🏆 五大號位歷史超巨 生涯榮譽對照表</h2>
         <table class="honor-table">
             <tr>
