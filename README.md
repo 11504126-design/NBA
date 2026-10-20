@@ -104,7 +104,7 @@
     <br>
 
     <!-- 5號位 Shaq -->
-    <div class="card" id="pos5">
+<div class="card" id="pos5">
         <h2>5號位 (C)：Shaquille O'Neal</h2>
         <p><strong>效力球隊：</strong>魔術 / 湖人 / 熱火 | <strong>背號：</strong>34號</p>
         <p>最具<mark>物理破壞力與統治力</mark>的中鋒，聯手奪得湖人三連霸。</p>
@@ -116,7 +116,7 @@
     </div>
     <br>
 
-    <!-- 榮譽對照總表 -->
+ <!-- 榮譽對照總表 -->
 <div class="card" id="table">
         <h2 style="text-align: center;">🏆 五大號位歷史超巨 生涯榮譽對照表</h2>
         <table class="honor-table">
